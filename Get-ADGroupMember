@@ -1,0 +1,1 @@
+Get-ADGroupMember -Identity DA-PMO_TI-R | ft name,SamAccountName -AutoSize |Out-File c:\DA-PMO_TI-R.txt
