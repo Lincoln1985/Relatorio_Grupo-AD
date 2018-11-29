@@ -1,0 +1,1 @@
+Get-ADGroupMember -Identity NomeDoGrupo | ft name,SamAccountName -AutoSize |Out-File c:\Grupo.txt
